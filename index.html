@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultório Veterinário</title>
+    <link rel="stylesheet"  href="./css/style.css"></link>
+</head>
+<body>
+    <header >
+        <div class="header">
+        <h1>Clínica Veterinária do Jorginho</h1>
+        <img src="./img/Veterinária.png" alt="">
+        </div>
+    </header>
+    <div class="formA">
+        <form>
+            <div class="form">
+                <div>
+                    <label for="name">Digite seu nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="photo-upload">Coloque sua imagem:</label>
+                    <input type="file" id="file-upload" name="file-upload" required>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btnAdd" id="btnAdd">Adicionar</button>
+                <button class="btnUrg" id="btnUrg">Urgência</button>
+                <button class="btnAtt" id="btnAtt">Atender</button>
+            </div>
+        </form>
+    </div>
+    <div class="requests">
+        <div class="results">
+            <div class="attend">
+                <h2>Em Atendimento:</h2>
+            </div>
+            <div class="waiting">
+                <h2>Aguardando o Atendimento:</h2>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
